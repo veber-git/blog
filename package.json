@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog with authorization and pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env PORT=3001 node index.js",
+    "dev": "nodemon inde.js"
+  },
+  "author": "PGC",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.2",
+    "ejs": "^3.1.3",
+    "eslint": "^7.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.9.28",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
